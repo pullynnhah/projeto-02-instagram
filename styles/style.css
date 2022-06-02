@@ -12,10 +12,12 @@ header {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 }
 
 nav {
   height: 54px;
+  background-color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -47,15 +49,12 @@ main {
 
   overflow: hidden;
   background-color: #fafafa;
-  border-top: 1px solid #DBDBDB;
-  border-bottom: 1px solid #DBDBDB;
+  border-top: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
 }
 
 .story {
   width: 66px;
-}
-
-.story div {
   position: relative;
 }
 
@@ -67,12 +66,22 @@ main {
 
 .story p {
   color: #262626;
+  font-size: 12px;
+  line-height: 14px;
+
   text-align: center;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
+.post img,
+video {
+  width: 100vw;
+}
+
 footer {
+  background-color: #fff;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
