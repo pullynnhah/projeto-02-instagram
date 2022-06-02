@@ -1,3 +1,85 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  height: 54px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav {
+  height: 54px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ion-icon {
+  font-size: 22px;
+}
+
+ion-icon:hover {
+  opacity: 0.7;
+}
+
+nav,
+footer {
+  padding: 0 22px;
+}
+
+main {
+  margin: 54px 0;
+}
+
+.stories {
+  height: 118px;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  padding: 0 18px;
+
+  overflow: hidden;
+  background-color: #fafafa;
+  border-top: 1px solid #DBDBDB;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.story {
+  width: 66px;
+}
+
+.story div {
+  position: relative;
+}
+
+.user {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.story p {
+  color: #262626;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 54px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
