@@ -101,6 +101,12 @@ main {
   align-items: center;
   gap: 15px;
 }
+.post-header p {
+  color: #262626;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
 
 .ellipsis {
   font-size: 16px;
@@ -131,6 +137,16 @@ video {
   display: flex;
   gap: 5px;
   align-items: center;
+}
+
+.post-likes p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+strong {
+  font-weight: 500;
 }
 
 footer {
