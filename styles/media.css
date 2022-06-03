@@ -5,7 +5,7 @@
 
   nav:last-child {
     display: flex;
-    border-bottom: 1px solid #dbdbdb;
+    border-bottom: 1px solid #DBDBDB;
   }
 
   nav div {
@@ -16,11 +16,11 @@
   .logo ion-icon {
     padding-right: 12px;
     margin-right: 12px;
-    border-right: 1px solid #dbdbdb;
+    border-right: 1px solid #DBDBDB;
   }
 
   nav input {
-    background-color: #fafafa;
+    background-color: #FAFAFA;
     width: 215px;
     height: 28px;
 
@@ -28,7 +28,7 @@
     line-height: 14px;
     text-align: center;
 
-    border: 1px solid #dbdbdb;
+    border: 1px solid #DBDBDB;
     border-radius: 3px;
   }
 
@@ -42,9 +42,9 @@
   }
 
   .stories {
-    background-color: #fff;
+    background-color: #FFF;
     margin-bottom: 24px;
-    border: 1px solid #dbdbdb;
+    border: 1px solid #DBDBDB;
 
     position: relative;
   }
@@ -53,14 +53,14 @@
     position: absolute;
     top: 46px;
     right: 8px;
-    color: #fff;
+    color: #FFF;
     font-size: 26px;
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
   }
 
   .post {
     width: 614px;
-    border: 1px solid #dbdbdb;
+    border: 1px solid #DBDBDB;
   }
 
   .post > img,
@@ -75,7 +75,7 @@
 
 @media (min-width: 935px) {
   header {
-    border-bottom: 1px solid #dbdbdb;
+    border-bottom: 1px solid #DBDBDB;
   }
 
   nav {
@@ -105,13 +105,13 @@
   }
 
   aside p {
-    color: #8e8e8e;
+    color: #8E8E8E;
     font-size: 12px;
     line-height: 14px;
   }
 
   aside button {
-    background-color: #fafafa;
+    background-color: #FAFAFA;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
@@ -165,13 +165,13 @@
   }
 
   .suggestion button {
-    color: #139ef2;
+    color: #139EF2;
   }
 
   .disclamer,
   .copyright {
     font-size: 11px;
     line-height: 13px;
-    color: #c7c7c7;
+    color: #C7C7C7;
   }
 }
