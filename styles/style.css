@@ -65,7 +65,7 @@ main {
   position: relative;
 }
 
-.user {
+.user-image {
   position: absolute;
   top: 5px;
   left: 5px;
@@ -190,16 +190,23 @@ input::placeholder {
   outline: none;
 }
 
-
 button {
-  background-color: #fff;
+  font-family: "Roboto", sans-serif;
   border: none;
+}
+
+.post-comments button {
+  background-color: #fff;
   color: #b2dffc;
   transition: all 300ms;
 }
 
-button:hover {
+.post-comments button:hover {
   color: #0095f6;
+}
+
+aside {
+  display: none;
 }
 
 footer {

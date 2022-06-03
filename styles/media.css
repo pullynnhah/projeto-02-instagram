@@ -72,3 +72,105 @@
     display: none;
   }
 }
+
+@media (min-width: 935px) {
+  header {
+    border-bottom: 1px solid #dbdbdb;
+  }
+
+  nav {
+    padding: 0;
+    margin: 0 auto;
+    width: 935px;
+  }
+
+  .feed {
+    width: 935px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+  }
+
+  aside {
+    margin: 111px 0 0 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 300px;
+  }
+
+  aside p {
+    color: #8e8e8e;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  aside button {
+    background-color: #fafafa;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  aside button:hover {
+    opacity: 0.5;
+  }
+
+  .user {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+  }
+
+  .you {
+    margin-right: 6px;
+  }
+
+  .user div {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .user strong {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #262626;
+  }
+
+  .user small {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    color: #818181;
+  }
+
+  .suggestions-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .suggestions-header button {
+    font-weight: 500;
+    color: #262626;
+  }
+
+  .suggestion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .suggestion button {
+    color: #139ef2;
+  }
+
+  .disclamer,
+  .copyright {
+    font-size: 11px;
+    line-height: 13px;
+    color: #c7c7c7;
+  }
+}
