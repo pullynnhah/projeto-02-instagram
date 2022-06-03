@@ -34,6 +34,7 @@ ion-icon {
 
 ion-icon:hover {
   color: #f6439d;
+  cursor:pointer;
 }
 
 nav,
@@ -154,6 +155,51 @@ strong {
 }
 
 .post-comments {
+  padding: 0 18px;
+}
+
+.post-comments div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.post-comments p {
+  color: #262626;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+button {
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+.more-comments {
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #8e8e8e;
+  margin-bottom: 10px;
+}
+
+.like-comment {
+  background-color: #fff;
+}
+
+.like-comment ion-icon {
+  font-size: 16px;
+}
+.your-comment {
   height: 50px;
   display: flex;
   padding: 0 18px;
@@ -163,7 +209,7 @@ strong {
   border-top: 1px solid #dbdbdb;
 }
 
-.post-comments div {
+.your-comment div {
   display: flex;
   gap: 10px;
 }
@@ -178,7 +224,7 @@ input::placeholder {
   color: #979797;
 }
 
-.post-comments input {
+.your-comment input {
   font-size: 16px;
   line-height: 20px;
 
@@ -186,22 +232,17 @@ input::placeholder {
   border: none;
 }
 
-.post-comments input:focus {
+.your-comment input:focus {
   outline: none;
 }
 
-button {
-  font-family: "Roboto", sans-serif;
-  border: none;
-}
-
-.post-comments button {
+.your-comment button {
   background-color: #fff;
   color: #b2dffc;
   transition: all 300ms;
 }
 
-.post-comments button:hover {
+.your-comment button:hover {
   color: #0095f6;
 }
 

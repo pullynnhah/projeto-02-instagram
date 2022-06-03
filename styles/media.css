@@ -117,10 +117,6 @@
     line-height: 14px;
   }
 
-  aside button:hover {
-    opacity: 0.5;
-  }
-
   .user {
     display: flex;
     gap: 11px;
@@ -167,6 +163,7 @@
     justify-content: space-between;
     align-items: center;
   }
+
   .suggestion button {
     color: #139ef2;
   }
