@@ -4,6 +4,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #fafafa;
 }
 
 header {
@@ -13,6 +14,10 @@ header {
   left: 0;
   right: 0;
   z-index: 1;
+}
+
+nav:last-child {
+  display: none;
 }
 
 nav {
@@ -48,7 +53,6 @@ main {
   padding: 0 18px;
 
   overflow: hidden;
-  background-color: #fafafa;
 }
 
 .border {
@@ -78,7 +82,6 @@ main {
 }
 
 .posts {
-  background-color: #fafafa;
   display: flex;
   flex-direction: column;
   gap: 60px;
